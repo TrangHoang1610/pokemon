@@ -72,8 +72,6 @@ class pokemon_Adapter : RecyclerView.Adapter<pokemon_Adapter.ViewHolder>() {
         var itemId: TextView = itemView.findViewById(R.id.tvId)
         var constrain: ConstraintLayout = itemView.findViewById(R.id.constrainLayout)
         var recyclerView: RecyclerView = itemView.findViewById(R.id.rv_Type)
-
-
     }
 
 }
